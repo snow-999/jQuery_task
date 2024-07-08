@@ -1,0 +1,158 @@
+#Home {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.homePage {
+    height: 90vh;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+    text-align: center;
+}
+
+.homePage .sliderMenue {
+    background-color: black;
+    color: #fff;
+    width: 0px;
+    height: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    padding-top: 0px;
+    padding-inline: 0px;
+    transition: all .5s;
+}
+
+.open {
+    cursor: pointer;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+
+}
+
+h1 {
+    margin-top: 200px;
+
+}
+
+.links a {
+    display: block;
+    font-size: 25px;
+    padding: 20px 8px 20px 32px;
+    color: #fff;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+
+.toggle {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(214, 46, 51, 0.6);
+    margin: 0;
+}
+
+.singerInfo {
+    display: none;
+    background-color: #CCCCCC;
+}
+
+#count {
+    height: 330px;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+#count .container {
+    padding: 100px 0;
+}
+
+#count #Time {
+    padding: 50px;
+    border: 1px white solid;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.soicialIcon {
+    width: 40px;
+    height: 40px;
+    border: 1px #999 solid;
+    color: #777;
+}
+
+.soicialIcon:hover {
+    background-color: #D62E33;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    background-color: #D62E33;
+    color: #fff;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.title .text-center {
+    color: #777;
+}
+
+.title h2 {
+    color: #444;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactInfo h3 {
+    color: #444;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+}
+
+.contactInfo {
+    color: #777;
+    text-align: center;
+}
+
+.contactInfo i {
+    margin-inline: 5px;
+}
+
+.contactInfo span {
+    color: #d62e40;
+}
